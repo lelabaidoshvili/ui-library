@@ -1,0 +1,25 @@
+.alt-checkbox {
+  border: 1px solid $alt-checkbox-border-color;
+  border-radius: $alt-checkbox-border-radius;
+  color: $alt-checkbox-color;
+  font-size: $alt-checkbox-font-size;
+  font-weight: $alt-checkbox-font-weight;
+  height: $alt-checkbox-height;
+  padding: $alt-checkbox-padding;
+  width: $alt-checkbox-width;
+  margin: 5px;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    color: $alt-checkbox-color;
+  }
+
+  &-disabled {
+    background-color: $alt-checkbox-disabled-background-color;
+    border-color: $alt-checkbox-disabled-border-color;
+    color: $alt-checkbox-disabled-color;
+  }
+}

@@ -1,0 +1,10 @@
+<input [(ngModel)]="inputForm" altInput placeholder="hello" required [disabled]="disabled" [size]="size" prefixCls="some-input"/>
+<textarea [(ngModel)]="inputForm2" altInput placeholder="hello" required></textarea>
+
+<button (click)="disable()">Disable</button>
+
+<select [(ngModel)]="size">
+  <option value="sm">Small</option>
+  <option value="md">Medium</option>
+  <option value="lg">Large</option>
+</select>
